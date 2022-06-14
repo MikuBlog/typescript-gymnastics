@@ -1,6 +1,6 @@
 export type build<
   length extends number,
-  ele extends any,
+  ele = any,
   result extends unknown[] = []
 > = result["length"] extends length
   ? result
